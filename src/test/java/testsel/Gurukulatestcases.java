@@ -6,33 +6,31 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class createbranch {
+public class Gurukulatestcases extends App {
 
 	static App newapp = new App();
+	static testmethods testm; 
 	
-	
-@BeforeClass
+@org.testng.annotations.BeforeClass
 public static void setup(){
 	
-	newapp.initialise();
+	testm = new testmethods();
+	
+	//newapp.initialise();
 	
 }
 
-@Before
-public void init() {
-	
-	newapp.loginlink();
-	newapp.logincheck();
-	
-}
 
-@Test
+
+@org.testng.annotations.Test
 public void branchverify() throws InterruptedException {
 	
 
-	newapp.entityclick();
+	testm.branchcreate(driver);
+	
+	//newapp.entityclick();
 	//Thread.sleep(10000);
-	newapp.branchcreate();
+	//newapp.branchcreate();
 	//Thread.sleep(1000);
 	//newapp.branchsearch();
 	//newapp.branchedit();
@@ -50,7 +48,7 @@ public void cleardata() {
 @AfterClass
 public static void teardown() {
 	
-	newapp.endprocess();
+	//newapp.endprocess();
 }
 
 	

@@ -2,10 +2,20 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31" started-at="2016-04-24T10:58:12Z" finished-at="2016-04-24T10:58:12Z">
+  <suite name="Default suite" duration-ms="51417" started-at="2016-04-25T14:04:57Z" finished-at="2016-04-25T14:05:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31" started-at="2016-04-24T10:58:12Z" finished-at="2016-04-24T10:58:12Z">
+    <test name="Default test" duration-ms="51417" started-at="2016-04-25T14:04:57Z" finished-at="2016-04-25T14:05:48Z">
+      <class name="testsel.Gurukulatestcases">
+        <test-method status="PASS" signature="initialise()[pri:0, instance:testsel.Gurukulatestcases@57175e74]" name="initialise" is-config="true" duration-ms="51388" started-at="2016-04-25T19:34:57Z" finished-at="2016-04-25T19:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method status="PASS" signature="endprocess()[pri:0, instance:testsel.Gurukulatestcases@57175e74]" name="endprocess" is-config="true" duration-ms="1" started-at="2016-04-25T19:35:48Z" finished-at="2016-04-25T19:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endprocess -->
+      </class> <!-- testsel.Gurukulatestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
