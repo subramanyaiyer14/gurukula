@@ -25,15 +25,12 @@ public static void setup(){
 @org.testng.annotations.Test
 public void branchverify() throws InterruptedException {
 	
-
-	testm.branchcreate(driver);
+//	newapp.entitycheckforbranch();
+	testm.entityclick(driver);
+	testm.branchclick(driver);
+	//testm.branchcreate(driver);
+	//testm.branchsearch(driver);
 	
-	//newapp.entityclick();
-	//Thread.sleep(10000);
-	//newapp.branchcreate();
-	//Thread.sleep(1000);
-	//newapp.branchsearch();
-	//newapp.branchedit();
 	
 	
 }
